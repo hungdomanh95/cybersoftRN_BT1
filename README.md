@@ -1,1 +1,1 @@
-![picture](static/images/result.png =250x)
+![picture](static/images/result.png)
