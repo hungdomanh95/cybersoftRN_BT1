@@ -7,10 +7,10 @@ import Touched from './src/components/Buoi5/Touched';
 const App = () => {
   return (
     <View style={styles.container}>
-      <Buoi3 />
+      {/* <Buoi3 /> */}
       {/* <Touched /> */}
       {/* <RenderWidthState /> */}
-      {/* <RenderIcon /> */}
+      <RenderIcon />
     </View>
   );
 };
