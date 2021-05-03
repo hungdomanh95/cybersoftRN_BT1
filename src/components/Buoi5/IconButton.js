@@ -1,9 +1,16 @@
 import React, {Component} from 'react';
-import {Image, StyleSheet} from 'react-native';
+import {Image, StyleSheet, TouchableOpacity} from 'react-native';
 
 export default class IconButton extends Component {
+  handlechangeIcon = () => {
+    this.props.changeIcon(this.props.icon);
+  };
   render() {
-    return <Image source={this.props.icon.imageUrl} style={styles.icon} />;
+    return (
+      <TouchableOpacity onPress={this.handlechangeIcon}>
+        <Image source={this.props.icon.imageUrl} style={styles.icon} />
+      </TouchableOpacity>
+    );
   }
 }
 const styles = StyleSheet.create({

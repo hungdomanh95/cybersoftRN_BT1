@@ -98,7 +98,7 @@ export default class RenderIcon extends Component {
             ],
           }}
         />
-        <View style={styles.listIcon}>
+        {/* <View style={styles.listIcon}>
           {dataImage.map((item, index) => {
             return (
               <TouchableOpacity
@@ -106,6 +106,17 @@ export default class RenderIcon extends Component {
                 onPress={() => this.changeIcon(item)}>
                 <IconButton icon={item} />
               </TouchableOpacity>
+            );
+          })}
+        </View> */}
+        <View style={styles.listIcon}>
+          {dataImage.map((item, index) => {
+            return (
+              <IconButton
+                icon={item}
+                key={index}
+                changeIcon={this.changeIcon}
+              />
             );
           })}
         </View>
