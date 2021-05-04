@@ -9,6 +9,7 @@ import RenderWidthMap from './src/components/Buoi6/RenderWidthMap';
 import BaiTapRenderWidthMap from './src/components/Buoi6/BaiTapRenderWidthMap';
 import GameScrollView from './src/components/Buoi6/GameScrollView';
 import BaiTapScrollView from './src/components/Buoi6/BaiTapScrollView';
+import BaiTapZalo from './src/components/BaiTapZalo/BaiTapZalo';
 const App = () => {
   return (
     <View style={styles.container}>
@@ -20,7 +21,8 @@ const App = () => {
       {/* <RenderWidthMap /> */}
       {/* <BaiTapRenderWidthMap /> */}
       {/* <GameScrollView /> */}
-      <BaiTapScrollView />
+      {/* <BaiTapScrollView /> */}
+      <BaiTapZalo />
     </View>
   );
 };

@@ -4,6 +4,18 @@ import CareIcon from './images/care.png';
 import HahaIcon from './images/haha.png';
 import LikeIcon from './images/like.png';
 import SadIcon from './images/sad.png';
+
+import Wanda from './images/Zalo/wanda.jpg';
+import Yasuo from './images/Zalo/yasuo.jpg';
+import Captain from './images/Zalo/captain.jpg';
+import Flash from './images/Zalo/flash.jpg';
+import Strange from './images/Zalo/strange.jpg';
+import Kara from './images/Zalo/suppergirl.jpg';
+import Diana from './images/Zalo/wonderwoman.jpg';
+import Natasha from './images/Zalo/blackwidow.jpeg';
+import IronMan from './images/Zalo/ironman.jpeg';
+import SpiderMan from './images/Zalo/spiderman.jpeg';
+
 const Alto_icon = require('./images/Game/Alto_icon.png');
 const Alto_0 = require('./images/Game/Alto_0.png');
 const Alto_1 = require('./images/Game/Alto_1.png');
@@ -59,4 +71,14 @@ export {
   Genshin_2,
   Genshin_3,
   Genshin_4,
+  Wanda,
+  Yasuo,
+  Captain,
+  Flash,
+  Strange,
+  Kara,
+  Diana,
+  Natasha,
+  IronMan,
+  SpiderMan,
 };
